@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Services page of Your Website" />
+  <link rel="stylesheet" href="Services.css">
+  <title>Float — Services</title>
+</head>
+<body>
+  <header>
+    <h1>Float</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="services-header">
+      <h2>Our Services</h2>
+      <p>As far as I know, we do not provide any services. </p>
+    </div>
+
+    <section aria-label="Service list" class="grid">
+      <article class="card">
+        <h3>Float Taskforce</h3>
+        <p>A battalion size taskforce that is deployed to eliminate any competitors</p>
+        <a href="contact.html">Inquire →</a>
+      </article>
+      <article class="card">
+        <h3>Float Research and Development</h3>
+        <p>We just do our research that's it</p>
+        <a href="contact.html">Inquire →</a>
+      </article>
+      <article class="card">
+        <h3>Float Float Float </h3>
+        <p>Float.</p>
+        <a href="contact.html">Inquire →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Website. All rights reserved. THIS WEBSITE IS A JOKE</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

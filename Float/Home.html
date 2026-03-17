@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Home page of Your Website" />
+  <link rel="stylesheet" href="Home.css">
+  <title>Float — Home</title>
+</head>
+<body>
+  <header>
+    <h1>Float</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="Home.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Float!</h2>
+      <p>Float is personal WebPortal that work like a sticky note but more compiled and they help users to cover every work they left off so that they can continue it by just a click away.</p>
+      <p><a href="services.html">Explore our services →</a></p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Highlights</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Feature One</h3>
+          <p>It asks the user if they want their cookies to be saved. So that it covers their collected cookies that will display on the tab.</p>
+        </article>
+        <article class="card">
+          <h3>Feature Two</h3>
+          <p>The user can freely customized their own personal Float based on their preference</p>
+        </article>
+        <article class="card">
+          <h3>Feature Three</h3>
+          <p>Users can use their email or any associated accounts to see what they have left off.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Website. All rights reserved. THIS WEBSITE IS A JOKE</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

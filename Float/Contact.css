@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(315deg, rgb(0, 134, 60) 10%, hsla(0, 0%, 24%, 1) 90%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header { 
+    background: #00642d; 
+    color: #fff; 
+    padding: 16px 24px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header h1 { 
+    margin: 0; 
+    font-size: 1.5rem; 
+}
+
+nav ul { 
+    display: flex; 
+    gap: 20px; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a[aria-current="page"] {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the boxes on the screen */
+}
+
+/* Top Box - Grey */
+.contact-header {
+    background: rgba(128, 128, 128, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.contact-info a {
+    color: #00bb55;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Bottom Box - Green */
+.form-container {
+    background: rgba(0, 187, 85, 0.15);
+    border: 1px solid #00bb55;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.form-container h3 {
+    margin-top: 0;
+    color: #00bb55;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: #fff;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #00bb55;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+button {
+    background: #00bb55;
+    border: none;
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #008a3f;
+}
+
+footer {
+    background: #00642d;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
